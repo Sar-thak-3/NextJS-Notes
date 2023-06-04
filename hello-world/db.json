@@ -1,0 +1,96 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "title": "Event 1",
+            "description": "Desc 1",
+            "category": "sports",
+            "date": "April 25"
+        },
+        {
+            "id": 2,
+            "title": "Event 2",
+            "description": "Desc 2",
+            "category": "sports",
+            "date": "April 25"
+        },
+        {
+            "id": 3,
+            "title": "Event 3",
+            "description": "Desc 3",
+            "category": "sports",
+            "date": "April 25"
+        },
+        {
+            "id": 4,
+            "title": "Event 4",
+            "description": "Desc 4",
+            "category": "politics",
+            "date": "April 25"
+        }
+    ],
+    "dashboard": {
+        "posts": 5,
+        "likes": 10,
+        "followers": 20,
+        "following": 50
+    },
+    "products": [
+        {
+            "id": 1,
+            "title": "Product 1",
+            "price": 1000,
+            "description": "Desc 1"
+        },
+        {
+            "id": 2,
+            "title": "Product 2",
+            "price": 200,
+            "description": "Desc 2"
+        },
+        {
+            "id": 3,
+            "title": "Product 3",
+            "price": 3000,
+            "description": "Desc 3"
+        }
+    ],
+    "news": [
+        {
+            "author": "Dan Peck",
+            "title": "Hurricane Hanna makes landfall around 5 p.m. on Saturday.",
+            "description": "Hurricane Hanna battered southern Texas with sustained winds of 75 mph and continued to deliver heavy rain and flash flooding as it moved inland late Saturday.",
+            "url": "https://abcnews.go.com/US/hurricane-hanna-makes-landfall-texas/story?id=71985566",
+            "source": "ABC News",
+            "image": "https://s.abcnews.com/images/US/hanna-swimmer-mo_hpMain_20200725-163152_2_4x3t_384.jpg",
+            "category": "general",
+            "language": "en",
+            "country": "us",
+            "published_at": "2020-07-26T01:04:23+00:00"
+        },
+        {
+            "author": "TMZ Staff",
+            "title": "Nicki Minaj's Husband Gets Permission To Be There For Baby's Birth",
+            "description": "Kenneth can be in the room when Nicki gives birth ... a judge just granted his request to tweak his pre-trial release conditions so he can travel with Nicki. With the court's order in place, KP can travel with Nicki periodically on biz…",
+            "url": "https://www.tmz.com/2020/07/30/nicki-minaj-husband-asks-judge-be-there-child-birth/",
+            "source": "TMZ.com",
+            "image": "https://imagez.tmz.com/image/c1/4by3/2020/07/30/c115ad2dc849438a97a0ad3097b416df_md.jpg",
+            "category": "general",
+            "language": "en",
+            "country": "us",
+            "published_at": "2020-08-01T05:34:47+00:00"
+        },
+        {
+            "author": "Michael Rothstein",
+            "title": "New Lions safety Jayron Kearse suspended three games",
+            "description": "Kearse, 26, signed with the Lions in March after four seasons in Minnesota, where he played in 62 games with five starts, making 79 tackles and defending eight passes.",
+            "url": "https://www.espn.com/nfl/story/_/id/29572640/new-lions-safety-jayron-kearse-suspended-three-games",
+            "source": "ESPN",
+            "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0111%2Fr651071_1296x729_16%2D9.jpg",
+            "category": "sports",
+            "language": "en",
+            "country": "us",
+            "published_at": "2020-07-31T23:23:14+00:00"
+        }
+    ]
+}
