@@ -242,24 +242,41 @@ HTML is generated for each request.
 > Go through event.js in hello-world app
 
 
+# Styling in NEXT.JS
 
-<br><br><br><br><br><br>
+* `Home.module.css` file in styles is responsible for particular page css
+* `global.css` is for entire name
 
-## Error Handling within the page!
-Just create `error.tsx` and it will work when there will be error in any particular page
+## SASS With Next.JS
+* Create File.module.scss in styles folder and then include file as css in page and WOAWW its done!
 
-# Fetch API in Next.JS
-* Nextjs automatically dedupe requests in a tree
-* Use loading UI, Streaming and Suspense to progressively render and show a result to the user while the rest of the content loads.
+# MISC Section
 
-> "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+* If you want to add Navbar and Footer to all the pages then just add those in _app.js in pages folder and it's done.
+* But if you want not to show footer on some pages then what you can do is use PageLayout Function as in `about.js` in Pages folder in `next-misc` app.
 
-This file extensions can be created in directory of app to define any global thing, directly <b><u>without even importing</u></b>
+* Image component in `next/image` is used for better rendering of images -> It optimizes the images with smaller size in cache. Also lazy loading-> loading when user reaches that portion
+
+
+# Error Handling within the page!
+Just create `error.js` and it will work when there will be error in any particular page
+
+# 
+> Write path in `jsconfig.json` in root folder
+
+This file extensions can be created in directory of app to define any global thing using any short url or directly <b><u>without even importing</u></b>
+* Refer to `jsconfig.json` in next-misc app
+
+
+> next export -> Exports all your pages to static HTML files that you can serve without the need of Node.js server
 
 # Favicon of App
 Just simply add any favicon to app folder you want to set as Icon to app and rename it as `favicon.ico` . 
 
-*HURRAY DONE*
+### *If there is any error with any url of app, then nextJs automatically keeps calling it every particular time to ensure if issue got corrected it will render the url.*
 
-## *If there is any error with any url of app, then nextJs automatically keeps calling it every particular time to ensure if issue got corrected it will render the url.*
+<br>
 
+<div align="center"><h2>
+<i>------------------HURRAY DONE-------------------</i></h2>
+</div>
