@@ -257,6 +257,16 @@ HTML is generated for each request.
 
 * Image component in `next/image` is used for better rendering of images -> It optimizes the images with smaller size in cache. Also lazy loading-> loading when user reaches that portion
 
+## When to use Priview Mode
+* Static generation where pages are pre-rendered at build time. It is pretty useful when your pages fetch data from a CMS.
+* After building you can't see changes you made in app, so preview of publish is used in that case.
+* In `api/preview.js` Preview mode is enabled now you can
+
+# Redirects
+* Add redirect in next.config.json file as shown in `next-misc` app
+
+# NextAuth.js
+* Learn next-auth authentication when required, more secure and offer directly linking with apps like Google, Github, Microsoft hence makes this thing super easy.
 
 # Error Handling within the page!
 Just create `error.js` and it will work when there will be error in any particular page
@@ -275,7 +285,12 @@ Just simply add any favicon to app folder you want to set as Icon to app and ren
 
 ### *If there is any error with any url of app, then nextJs automatically keeps calling it every particular time to ensure if issue got corrected it will render the url.*
 
-<br>
+# Deploying app to VERCEL
+* Push to Github
+* Sign up vercel
+* Import git repository
+* Click Deploy
+* Done
 
 <div align="center"><h2>
 <i>------------------HURRAY DONE-------------------</i></h2>

@@ -1,4 +1,4 @@
-import Footer from "@/components/Footer"
+import Footer from "@/layout/Footer"
 import Head from "next/head"
 
 export default function About(){
